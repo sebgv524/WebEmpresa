@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Contacto</title>
+		  <!-- Bootstrap -->
+	    <link href="bootstrap.min.css" rel="stylesheet">
+	    <link href="estilos.css" rel="stylesheet">
+	    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	    <![endif]-->
+	</head>
+	<body>
+		<div id="caja">
+			<header>
+				<h2>Logo</h2>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="#">Sobre nosotros</a></li>
+					<li><a href="#">Servicios</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+
+			<div id="formulario">
+				<form role="form" action="contacto.php" method="POST" id="contacto" title="Nombre">
+					   <label for="nombre">Nombre</label>
+					   <input name="nombre" type="text" required="required" id="nombre" placeholder="nombre" tabindex="1" title="Nombre" required>
+					   <br>
+					   <label for="email">Email</label>
+					   <input name="email" type="email" required="required" id="email" placeholder="email" tabindex="2" title="Email" required>
+					   <br>
+					   <label for="telefono">Teléfono</label>
+					   <input name="telefono" type="text" id="telefono" placeholder="telefono" tabindex="3" title="Telefono">
+					   <br>
+					   <label for="ciudad">Ciudad</label>
+					   <input name="ciudad" type="text" id="ciudad" placeholder="ciudad" tabindex="4" title="ciudad">
+					   <br>
+					   <label for="pais">País</label>
+					   <input name="pais" type="pais" id="pais" placeholder="pais" tabindex="5" title="pais">
+					   <br>
+					   <label for="Mensaje">Mensaje</label>
+					   <textarea name="mensaje" rows="4" id="mensaje" placeholder="mensaje" tabindex="6"></textarea>
+					   <br>
+					   <input type="submit" name="enviar" tabindex="7" value="Enviar"><input type="reset" tabindex="8" value="Borrar">
+					   <input type="hidden" name="estado" value="1">
+   				</form>
+
+			</div>
+
+			<footer>
+				Todos los derechos reservados &copy ...
+			</footer>
+		</div>
+	</body>
+</html>
