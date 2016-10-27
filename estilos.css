@@ -69,14 +69,38 @@ footer{
 }
 
 label {
-	width: 140px;	
+	width: 140px;
 	padding: 4px;
 }
 
 input {
-	width: 140px;	
+	width: 140px;
 	padding: 4px;
-	margin: 5px 5px;	
+	margin: 5px 5px;
+}
+
+.info {
+    background-color: #1c1c1d;
+    color: white;
+    padding: 20px;
+}
+
+.infoContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.infoContent .block .icon-social {
+    font-size: 70px;
+}
+
+i, cite, em, var, address, dfn {
+    font-style: italic;
+}
+
+article {
+    display: block;
 }
 
 #formulario {
@@ -86,4 +110,9 @@ input {
 	padding: 10px 30px;
 	border-radius: 6px;
 	border:thin #C1C1C1;
+}
+.fa:hover{
+	transition: 0.3s;
+	transform: scale(1.4);
+
 }
