@@ -40,7 +40,7 @@ header{
 	font-weight: bold;
 }
 nav, footer{
-	background-color: #222;
+	background-color: #3463da;
 	box-shadow: 2px 3px 1px gray;
 	border-radius: 5px;
 	margin: 10px;
@@ -53,9 +53,13 @@ ul li{
 	padding: 15px;
 	display: inline-block;
 	margin-right: 20px;
+	border-radius: 20px;
 }
 ul li:hover{
-	background-color: #000;
+	background-color: #0b3662;
+	transition: 0.2s;
+	transform: scale(0.9);
+
 }
 ul li a{
 	color: white;
@@ -92,7 +96,7 @@ input {
     text-align: center;
 }
 .infoContent .block .icon-social {
-    font-size: 70px;
+    font-size: 30px;
 }
 
 i, cite, em, var, address, dfn {
@@ -113,6 +117,6 @@ article {
 }
 .fa:hover{
 	transition: 0.3s;
-	transform: scale(1.4);
+	transform: scale(1.2);
 
 }
